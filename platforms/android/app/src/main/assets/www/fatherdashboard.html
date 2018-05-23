@@ -1,0 +1,37 @@
+<div data-name="fatherdashboard" class="page" data-script="fatherdashboard.js">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a class="link" onclick="FatherDashboard.signOut();">Salir</a>
+            </div>
+            <div class="title">Panel para Padres</div>
+            <div class="right">
+                <a href="/fatherprofile/" class="link">Perfil</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="toolbar tabbar">
+            <div class="toolbar-inner">
+                <a href="#mapTab" class="tab-link tab-link-active">Mapa</a>
+                <a href="#childrenTab" class="tab-link">Hijos</a>
+            </div>
+        </div>
+        <div class="tabs-animated-wrap">
+            <div class="tabs">
+                <div id="mapTab" class="page-content tab tab-active">
+                    <div class="row justify-content-space-between">
+                        <div class="col-100">
+                            <canvas class="map" id="currentPositionMap">
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+                <div id="childrenTab" class="page-content tab">
+                    <div class="block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+#Wed May 23 02:35:13 COT 2018
+base.0=C\:\\Projects\\TimeOutSchool\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Projects\\TimeOutSchool\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
